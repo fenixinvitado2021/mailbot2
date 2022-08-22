@@ -115,7 +115,7 @@ def onenteremail(bot:EmailBot=None,message:EmailMessage=None):
 
 
 def main():
-    natcli = EmailBot(email='susej.mabel2009@gmail.com',email_password='R@ydel2022',type='gmail')
+    natcli = EmailBot(email='alexiszs@nauta.cu',email_password='Kirenia',type='nauta')
     loged = natcli.login()
     if loged:
         print('DeltaFile2Mail Runing!')
